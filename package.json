@@ -1,0 +1,28 @@
+{
+  "name": "realtimechatwithusersandrooms",
+  "version": "1.0.0",
+  "description": "ChatBot",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cynthiadelvin/basic_chatbot.git"
+  },
+  "author": "Cynthia Delvin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cynthiadelvin/basic_chatbot/issues"
+  },
+  "homepage": "https://github.com/cynthiadelvin/basic_chatbot#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "moment": "^2.30.1",
+    "socket.io": "^4.7.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
